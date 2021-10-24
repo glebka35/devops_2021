@@ -7,12 +7,16 @@ vagrant up
 
 ## Подключаемся к мастеру и конфигурируем миниона
 vagrant ssh master
+
 sudo salt '*' state.highstate
+
 logout
 
 ## Подключаемся к миниону и клоним репозиторий с проектом
 vagrant ssh minion
+
 git clone https://github.com/glebka35/react_2021
+
 cd react_2021
 
 ## Устанавливаем зависимости проекта
