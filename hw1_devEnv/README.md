@@ -15,13 +15,6 @@ logout
 ## Подключаемся к миниону и клоним репозиторий с проектом
 vagrant ssh minion
 
-git clone https://github.com/glebka35/react_2021
-
-cd react_2021
-
-## Устанавливаем зависимости проекта
-npm install
-
 ## Запускаем проект
 cd Develop/react_2021 && sudo npm start
 
