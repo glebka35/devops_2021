@@ -23,6 +23,6 @@ cd react_2021
 npm install
 
 ## Запускаем проект
-npm start
+cd Develop/react_2021 && sudo npm start
 
 ## Переходим на localhost:8080
