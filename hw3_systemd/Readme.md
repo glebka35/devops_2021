@@ -9,3 +9,6 @@
 
 ## To disable server
 `systemctl --user disable --now react_2021.service`
+
+## To check that everything works go to
+`localhost:3000`
