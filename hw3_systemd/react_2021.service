@@ -1,0 +1,13 @@
+[Unit]
+Description=react_2021
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3000
+Type=simple
+ExecStart=/home/%u/react_2021/start.sh
+WorkingDirectory=/home/%u/react_2021
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
